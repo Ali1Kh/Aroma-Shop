@@ -7,6 +7,8 @@
 .container {
   width: 60%;
   margin: auto;
+  display: flow-root;
+  padding-inline: 15px;
 }
 /* !Home */
 .home {
@@ -129,7 +131,6 @@
 /* !Popular -> Trending and best seller and last news -> as (General) */
 .trendingItems {
   margin-block: 50px;
-  display: flow-root;
 }
 .popularHeader {
   margin-block: 35px;
@@ -238,6 +239,9 @@
   height: 500px;
   margin-block: 40px;
 }
+.ads .container {
+  height: 500px;
+}
 .adContent {
   width: 50%;
   float: left;
@@ -285,38 +289,36 @@
 /* !Best Sellers*/
 .bestSellers {
   margin-block: 50px;
-  display: flow-root;
 }
 .bestSellers .popularHeader::after {
   left: 5.5%;
   width: 80px;
 }
 /* !Last News */
-.latestNews{
-  display: flow-root;
+.latestNews {
   margin-block: 50px;
 }
 .latestNews .popularHeader::after {
   left: 7.5%;
   width: 65px;
 }
-.latestNews .cardNews{
+.latestNews .cardNews {
   width: 33.33%;
   float: left;
 }
-.latestNews .cardNews  img{
-width: 100%;
+.latestNews .cardNews img {
+  width: 100%;
 }
-.latestNews .cardNews .innerNews{
-margin: 15px 30px 15px 0;
+.latestNews .cardNews .innerNews {
+  margin: 15px 30px 15px 0;
 }
-.latestNews .cardNews .innerNews .newsContent{
+.latestNews .cardNews .innerNews .newsContent {
   padding: 10px;
   font-family: Roboto, sans-serif;
   font-size: 15px;
   line-height: 25.005px;
 }
-.latestNews .cardNews .innerNews .newsContent a{
+.latestNews .cardNews .innerNews .newsContent a {
   text-decoration: none;
   padding: 10px 30px 10px 0;
   font-size: 14px;
@@ -324,7 +326,7 @@ margin: 15px 30px 15px 0;
   line-height: 23.338px;
   color: rgb(153, 153, 153);
 }
-.latestNews .cardNews .innerNews .newsContent h5{
+.latestNews .cardNews .innerNews .newsContent h5 {
   font-family: Oswald, sans-serif;
   padding-block: 15px;
   font-size: 20px;
@@ -333,28 +335,90 @@ margin: 15px 30px 15px 0;
   color: #222;
   cursor: pointer;
 }
-.latestNews .cardNews .innerNews .newsContent p{
+.latestNews .cardNews .innerNews .newsContent p {
   padding-block: 15px;
   font-size: 15px;
   font-weight: 400;
   line-height: 25.05px;
   color: rgb(119, 119, 119);
 }
-.latestNews .cardNews .innerNews .newsContent a:last-of-type{
+.latestNews .cardNews .innerNews .newsContent a:last-of-type {
   padding-block: 15px;
   font-size: 15px;
   font-weight: 900;
   line-height: 25.05px;
   color: #222;
 }
-.latestNews .cardNews .innerNews .newsContent a:last-of-type i{
+.latestNews .cardNews .innerNews .newsContent a:last-of-type i {
   padding-inline: 4px;
   font-weight: 600;
   transition: all 0.5s;
 }
-.latestNews .cardNews .innerNews:hover .newsContent h5 ,.latestNews .cardNews .innerNews:hover .newsContent a:last-of-type{
-color: #384aeb;
+.latestNews .cardNews .innerNews:hover .newsContent h5,
+.latestNews .cardNews .innerNews:hover .newsContent a:last-of-type {
+  color: #384aeb;
 }
-.latestNews .cardNews .innerNews:hover .newsContent a:last-of-type i{
-padding-inline:10px;
+.latestNews .cardNews .innerNews:hover .newsContent a:last-of-type i {
+  padding-inline: 10px;
+}
+/* !Subscribe */
+.subscribe {
+  margin-block: 50px;
+}
+.innerContainer {
+  background-color: #fefffe;
+  text-align: center;
+  padding: 50px;
+}
+.innerContainer .subscribeHead {
+  margin-top: 15px;
+  padding: 10px;
+}
+.innerContainer .subscribeHead h3 {
+  font-family: "Oswald", sans-serif;
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 39.6px;
+  color: rgb(34, 34, 34);
+  padding: 10px;
+}
+.innerContainer .subscribeHead p {
+  font-family: Roboto, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25.5px;
+  color: rgb(119, 119, 119);
+  padding: 10px;
+}
+.innerContainer .inputs * {
+  border: solid 1px #eeeeee;
+  border-radius: 30px;
+  padding: 10px 15px;
+  font-family: Roboto, sans-serif;
+}
+.innerContainer .inputs input {
+  padding: 10px 50px 10px 12px;
+  margin: 10px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: rgb(73, 80, 87);
+}
+.innerContainer .inputs input:focus{
+outline: none;
+}
+.innerContainer .inputs button {
+  padding: 12px 35px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 900;
+  line-height: 25.005px;
+  color: #fefffe;
+  background-color: #384aeb;
+  transition: all 0.5s;
+}
+.innerContainer .inputs button:hover{
+background-color: transparent;
+color: rgb(34, 34, 34);
+border-color: #384aeb;
 }
