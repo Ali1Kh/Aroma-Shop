@@ -1,0 +1,547 @@
+/* *Extra small devices (phones, 576px and down) */
+@media only screen and (max-width: 576px) {
+  .container {
+    width: 95%;
+    padding-inline: 0px;
+  }
+  /* !NavBar */
+  .navBar {
+    padding-block: 10px;
+  }
+  .navPages,
+  .navButtons {
+    display: none;
+  }
+  /* !Home */
+
+  .home::before {
+    width: 5%;
+    height: 100%;
+  }
+  .home .container {
+    padding-block: 0;
+  }
+  .homeConentContainer {
+    transform: translateY(0px);
+    padding-block: 0;
+  }
+
+  .homeImage {
+    width: 0%;
+  }
+  .homeContent {
+    float: left;
+    width: 100%;
+    position: relative;
+    top: 0px;
+  }
+  .innerContent {
+    margin-inline: 20px;
+    padding-block: 30px;
+  }
+  .innerContent * {
+    padding: 5px;
+  }
+
+  .homeContent h1 {
+    font-size: 25px;
+    line-height: 27.5px;
+  }
+
+  .homeContent p {
+    margin-bottom: 4px;
+  }
+  .homeContent button {
+    padding: 8px 25px;
+  }
+
+  /* !Accessories */
+  .cardItem {
+    width: 100%;
+  }
+  .cardInner {
+    margin: 15px 0px 15px 0;
+  }
+
+  /* !Popular -> Trending and best seller and last news head line-> as (General) */
+  .popularHeader::after {
+    left: 23%;
+  }
+  .popularCards {
+    width: 100%;
+  }
+  .popularCards .innerCard {
+    margin-right: 0;
+  }
+  /* ?Hovering */
+  .innerCard:hover .cardLayer {
+    top: 82%;
+  }
+
+  /* !Ad Content */
+  .ads {
+    height: 400px;
+  }
+  .adContent {
+    width: 100%;
+  }
+  .adContent h1 {
+    padding-top: 25px;
+    font-size: 35px;
+    line-height: 38px;
+  }
+  .adContent button {
+    padding: 8px 25px;
+    margin-top: 15px;
+  }
+  /* !Best Sellers */
+  .bestSellers .popularHeader::after {
+    left: 13.1%;
+  }
+  /* !Last News */
+  .latestNews .popularHeader::after {
+    left: 16.3%;
+  }
+  .latestNews .cardNews {
+    width: 100%;
+  }
+  .latestNews .cardNews .innerNews {
+    margin-right: 0px;
+  }
+  /* !Subscribe */
+  .subscribe {
+    margin-block: 15px;
+    transform: translateY(0px);
+  }
+  .innerContainer .subscribeHead h3 {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 30.6px;
+    padding: 10px;
+  }
+  /* !Info Footer */
+  .infoFooter .infoCard {
+    width: 100%;
+    margin-block: 10px;
+    transform: translateY(0px);
+  }
+  .infoFooter .infoCard .innerInfoCard {
+    margin: 0px;
+  }
+  .innerInfoCard h2 {
+    font-size: 20px;
+  }
+  .links {
+    padding-left: 0px;
+  }
+  .gallery li {
+    width: 16.6666%;
+    padding: 0;
+  }
+  .contact p {
+    padding-left: 40px;
+  }
+  .footer {
+    padding: 50px;
+  }
+}
+
+/* *Small devices (portrait tablets and large phones, 577px and up) */
+@media only screen and (min-width: 577px) and (max-width: 767px) {
+  .container {
+    width: 85%;
+    padding-inline: 0px;
+  }
+  /* !NavBar */
+  .navBar {
+    padding-block: 10px;
+  }
+  .navPages,
+  .navButtons {
+    display: none;
+  }
+  /* !Home */
+
+  .home::before {
+    width: 20%;
+    height: 100%;
+  }
+  .home .container {
+    padding-block: 0;
+  }
+  .homeConentContainer {
+    transform: translateY(25px);
+    padding-block: 0;
+  }
+
+  .homeImage {
+    width: 40%;
+    transform: translateY(39px);
+  }
+  .homeContent {
+    width: 60%;
+    top: 0px;
+  }
+  .innerContent {
+    margin-inline: 20px;
+    padding-block: 30px;
+  }
+  .innerContent * {
+    padding: 5px;
+  }
+
+  .homeContent h1 {
+    font-size: 25px;
+    line-height: 27.5px;
+  }
+
+  .homeContent p {
+    margin-bottom: 4px;
+  }
+  .homeContent button {
+    padding: 8px 25px;
+  }
+
+  /* !Accessories */
+  .cardItem {
+    width: 50%;
+  }
+
+  /* !Popular -> Trending and best seller and last news head line-> as (General) */
+  .popularHeader::after {
+    left: 23%;
+  }
+  .popularCards {
+    width: 100%;
+  }
+  .trendingItems .popularCards .innerCard {
+    margin-right: 0;
+  }
+  /* ?Hovering */
+  .trendingItems .innerCard:hover .cardLayer {
+    top: 82%;
+  }
+
+  /* !Ad Content */
+  .ads {
+    height: 400px;
+  }
+  .adContent {
+    width: 100%;
+  }
+  .adContent h1 {
+    padding-top: 25px;
+    font-size: 35px;
+    line-height: 38px;
+  }
+  .adContent button {
+    padding: 8px 25px;
+    margin-top: 15px;
+  }
+  /* !Best Sellers */
+  .bestSellers .popularHeader::after {
+    left: 13%;
+  }
+  .bestSellers .popularCards {
+    width: 50%;
+  }
+
+  /* !Last News */
+  .latestNews .popularHeader::after {
+    left: 16.3%;
+  }
+  .latestNews .cardNews {
+    width: 100%;
+  }
+  .latestNews .cardNews .innerNews {
+    margin-right: 0px;
+  }
+  /* !Subscribe */
+  .subscribe {
+    margin-block: 15px;
+    transform: translateY(0px);
+  }
+  .innerContainer .subscribeHead h3 {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 30.6px;
+    padding: 10px;
+  }
+  /* !Info Footer */
+  .infoFooter .infoCard {
+    width: 50%;
+    margin-block: 10px;
+    transform: translateY(0px);
+  }
+  .innerInfoCard h2 {
+    font-size: 20px;
+  }
+  .links {
+    padding-left: 0px;
+  }
+  .gallery ul {
+    padding-right: 0px;
+  }
+  .gallery li {
+    width: 33.33%;
+    padding: 5px;
+  }
+  .gallery li img {
+    width: 100%;
+  }
+
+  .contact p {
+    padding-left: 40px;
+  }
+}
+
+/* *Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .container {
+    width: 85%;
+    padding-inline: 0px;
+  }
+  /* !NavBar */
+  .navBar {
+    padding-block: 10px;
+  }
+  .navPages,
+  .navButtons {
+    display: none;
+  }
+  /* !Home */
+
+  .home::before {
+    width: 20%;
+    height: 100%;
+  }
+  .home .container {
+    padding-block: 30px;
+  }
+  .homeConentContainer {
+    transform: translateY(0px);
+  }
+  .homeImage {
+    width: 45%;
+    transform: translateY(35px);
+  }
+  .homeContent {
+    width: 55%;
+    top: 0px;
+  }
+  .innerContent {
+    margin-inline: 20px;
+    padding-block: 30px;
+  }
+  .innerContent * {
+    padding: 5px;
+  }
+
+  .homeContent h1 {
+    font-size: 25px;
+    line-height: 27.5px;
+  }
+
+  .homeContent p {
+    margin-bottom: 4px;
+  }
+  .homeContent button {
+    padding: 8px 25px;
+  }
+
+  /* !Accessories */
+  .cardItem {
+    width: 33.333%;
+  }
+
+  /* !Popular -> Trending and best seller and last news head line-> as (General) */
+  .popularHeader::after {
+    left: 23%;
+  }
+  .popularCards {
+    width: 50%;
+  }
+  .trendingItems .popularCards .innerCard {
+    margin: 30px 25px 20px 0;
+  }
+  .trendingItems .innerCard:hover .cardLayer {
+    top: 72%;
+  }
+  /* !Ad Content */
+  .ads {
+    height: 400px;
+  }
+  .adContent {
+    width: 100%;
+  }
+  .adContent h1 {
+    padding-top: 25px;
+    font-size: 35px;
+    line-height: 38px;
+  }
+  .adContent button {
+    padding: 8px 25px;
+    margin-top: 15px;
+  }
+  /* !Best Sellers */
+  .bestSellers .popularHeader::after {
+    left: 13%;
+  }
+  .bestSellers .innerCard:hover .cardLayer {
+    top: 72%;
+  }
+  /* !Last News */
+  .latestNews .popularHeader::after {
+    left: 16.3%;
+  }
+  .latestNews .cardNews {
+    width: 50%;
+  }
+  .latestNews .cardNews .innerNews {
+    margin: 15px 30px 15px 0;
+  }
+  /* !Subscribe */
+  .subscribe {
+    margin-block: 10px;
+    transform: translateY(0px);
+  }
+  .innerContainer .subscribeHead h3 {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 30.6px;
+    padding: 0px;
+  }
+  /* !Info Footer */
+  .infoFooter .infoCard {
+    width: 50%;
+    margin-block: 0px;
+    transform: translateY(0px);
+  }
+  .innerInfoCard h2 {
+    font-size: 20px;
+  }
+  .links {
+    padding-left: 0px;
+  }
+  .gallery ul {
+    padding-right: 0px;
+  }
+  .gallery li {
+    width: 25%;
+    padding: 5px;
+  }
+  .gallery li img {
+    width: 100%;
+  }
+
+  .contact p {
+    padding-left: 40px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  .container {
+    width: 85%;
+    padding-inline: 0px;
+  }
+  /* !NavBar */
+  .navBar {
+    padding-block: 10px;
+  }
+  .navPages {
+    width: 40%;
+  }
+  .navPages li {
+    padding-inline: 10px;
+  }
+  .navButtons {
+    width: 40%;
+  }
+
+  /* !Home */
+
+  .home::before {
+    width: 20%;
+    height: 100%;
+  }
+  .home .container {
+    padding-block: 15px;
+  }
+  .homeConentContainer {
+    transform: translateY(0px);
+  }
+  .homeImage {
+    width: 35%;
+    transform: translateY(20px);
+  }
+  .homeContent {
+    width: 65%;
+    top: 50px;
+  }
+  .innerContent {
+    margin-inline: 20px;
+  }
+  .innerContent * {
+    padding: 5px;
+  }
+
+  .homeContent button {
+    padding: 8px 25px;
+  }
+
+  /* !Accessories */
+  .cardItem {
+    width: 33.333%;
+  }
+
+  /* !Popular -> Trending and best seller and last news head line-> as (General) */
+  .popularHeader::after {
+    left: 13.6%;
+  }
+  .popularCards {
+    width: 33.333%;
+  }
+
+  /* !Best Sellers */
+  .bestSellers .popularHeader::after {
+    left: 13%;
+  }
+
+  /* !Last News */
+  .latestNews {
+    margin-block: 0px;
+  }
+  .latestNews .popularHeader::after {
+    left: 10%;
+  }
+
+  /* !Info Footer */
+  .innerInfoCard h2 {
+    font-size: 20px;
+  }
+  .links {
+    padding-left: 0px;
+  }
+  .contact p {
+    padding-left: 40px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1201px) {
+  /* !Defualt Style Sheet >= 1200 */
+  /* !NavBar */
+  .navBar {
+    padding-block: 10px;
+  }
+  .navPages {
+    width: 40%;
+  }
+  .navPages li {
+    padding-inline: 10px;
+  }
+  .navButtons {
+    width: 40%;
+  }
+}

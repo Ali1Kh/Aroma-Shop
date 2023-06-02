@@ -12,14 +12,14 @@
 }
 /* !NavBar */
 .navBar {
-  position: fixed;
+  position: fixed; 
   z-index: 10;
   left: 0;
   right: 0;
   top: 0;
   padding-block: 15px;
   display: flow-root;
-  background-color: #fefeff;
+  background-color: #fefeff; 
 }
 .navLogo {
   width: 20%;
@@ -102,6 +102,7 @@
 
 /* !Home */
 .home {
+  margin-top: 70px; /**Temp Before Learn Js*/ 
   background-color: #f0f6f6;
   position: relative;
 }
@@ -238,7 +239,7 @@
   line-height: 22px;
   color: rgb(255, 255, 255);
 }
-/* !Popular -> Trending and best seller and last news -> as (General) */
+/* !Popular -> Trending and best seller and last news head line-> as (General) */
 .trendingItems {
   margin-block: 50px;
 }
@@ -332,6 +333,7 @@
   line-height: 26px;
   color: rgb(34, 34, 34);
   transition: all 0.5s;
+  cursor: pointer;
 }
 .cardContent h5 {
   font-size: 18px;
